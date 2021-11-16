@@ -8,4 +8,4 @@ class Snack(models.Model):
     description = models.TextField(default="")
 
     def __str__(self):
-        return f"Name: {self.name}\n Purchaser: {self.purchaser}\n Description: {self.description}"
+        return f"Name: {self.name}"
